@@ -9,6 +9,19 @@ form {
     margin-left: 3rem;
 }
 
+.textBox {
+    padding: 0.8rem 0.5rem;
+    background-color: #15251b;
+    border: 0;
+    font-size: 1.2rem;
+    color: #1cd577;
+}
+
 .SearchButton {
-    margin-left: 1rem;
+    padding: 0.7rem 0.8rem;
+    background-color: #1cd577;
+    border: 0;
+    color: #15251b;
+    font-size: 1.2rem;
+    margin-left: 0.6rem;
 }

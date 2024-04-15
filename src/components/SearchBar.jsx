@@ -13,7 +13,7 @@ function SearchBar({searchTracks}) {
   return (
     <div className={styles.SearchBar}>
       <form onSubmit={submitHandler}>
-        <input name="query" type="text" value={query} onChange={changeHandler}/>
+        <input className={styles.textBox} name="query" type="text" value={query} onChange={changeHandler}/>
         <input className={styles.SearchButton} type="submit" value="Search" />
       </form>
     </div>
