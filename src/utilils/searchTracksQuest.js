@@ -17,7 +17,7 @@ async function searchTracksQuest(query, accessToken) {
       artist: item.artists[0].name,
       album: item.album.name,
       albumImage: item.album.images[1].url,
-      releaseDate: item.album.release_date,
+      releaseDate: new Date(item.album.release_date).getTime()/1000,
       popularity: item.popularity,
       duration: item.duration_ms,
     }

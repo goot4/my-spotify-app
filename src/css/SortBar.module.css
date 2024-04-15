@@ -13,6 +13,7 @@
     }
     p:hover {
         background-color: #120c14;
+        cursor: pointer;
     }
     p.active {
         background-color: #fa5a52;
