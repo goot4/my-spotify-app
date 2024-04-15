@@ -1,0 +1,6 @@
+.GridView {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    grid-gap: 20px;
+    justify-content: space-around;
+}

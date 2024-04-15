@@ -1,0 +1,41 @@
+.GridItem {
+  height: 200px;
+  border: #eec541 solid 1px;
+  display: flex;
+  align-items: center;
+  color: #eec541;
+}
+img {
+  height: 180px;
+  width: 180px;
+  margin-left: 10px;
+}
+
+.InfoEntry {
+  width: 290px;
+  height: 180px;
+  margin: 10px;
+  overflow: hidden;
+  text-wrap: nowrap;
+
+  h2 {
+    color: #4fccd4;
+    margin: 0;
+  }
+}
+.Info {
+  display: flex;
+  align-items: center;
+
+  .InfoLeft{
+    width: 80%;
+    margin-right: 1.0rem;
+    text-align: left;
+    overflow: hidden;
+  }
+  p span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fa5a52;
+  }
+}
